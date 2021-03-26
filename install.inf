@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Installed files
+
+[Scheme.Cur]
+alternate.cur
+busy.ani
+cross.cur
+dgn1.cur
+dgn2.cur
+hand.cur
+help.cur
+horz.cur
+link.cur
+move.cur
+pointer.cur
+text.cur
+unavailiable.cur
+vert.cur
+work.ani
+
+[Strings]
+CUR_DIR       = "Cursors\Qogir Cursors"
+SCHEME_NAME   = "Qogir Cursors"
+alternate	  = "alternate.cur"
+busy		  = "busy.ani"
+cross		  = "cross.cur"
+dgn1		  = "dgn1.cur"
+dgn2		  = "dgn2.cur"
+hand		  = "hand.cur"
+help		  = "help.cur"
+horz		  = "horz.cur"
+link		  = "link.cur"
+move		  = "move.cur"
+pointer       = "pointer.cur"
+text		  = "text.cur"
+unavailiable  = "unavailiable.cur"
+vert		  = "vert.cur"   
+work		  = "work.ani"
