@@ -1,17 +1,17 @@
-# Qogir Icon Theme
-A flat colorful design icon theme for linux desktops
+# Qogir cursor Fork
+Qogir cursors for windows
 
-## Install
+### Install
 
-`./install.sh`
+ 1. Download/Clone this repository and unzip.
+ 2. Right click on `install.inf`.
+ 3. Click 'Install' from the context menu, and authorise the modifications to your system.
+ 4. Open `Control Panel` > `Personalisation and Appearance` > `Change mouse pointers`, and select **Qogir Cursors**.
+ 5. Click 'Apply'.
 
 
-# Qogir cursors
-This is an x-cursor theme inspired by Qogir theme
-  [Source files](src/cursors).
+# Original cursor
+https://github.com/vinceliuice/Qogir-icon-theme
 
-![cursors](cursors-preview.png)
-
-## Icon Preview
-![1](https://github.com/vinceliuice/Qogir-icon-theme/blob/master/preview_01.png?raw=true)
-![2](https://github.com/vinceliuice/Qogir-icon-theme/blob/master/preview_02.png?raw=true)
+## Cursor Preview
+![1](https://github.com/vinceliuice/Qogir-icon-theme/blob/master/src/cursors/preview.png?raw=true)
